@@ -38,7 +38,7 @@ Create a Next.js application based on the Figma design provided. The project sho
 ### Figma Design Reference
 
 [Figma Link]: [https://www.figma.com/design/Kw2O7g4t4HXMFBURJhlSMO/eustudyassist?node-id=0-1&t=9wsOxP2nh2WLZigf-1]
-You are required to design the courses main page with its mobile view and Accommodation loan page. Please refer to this [Figma file](https://www.figma.com/design/Kw2O7g4t4HXMFBURJhlSMO/eustudyassist?node-id=0-1&t=9wsOxP2nh2WLZigf-1) for the exact layout and design requirements. Pay close attention to colors, typography, and overall visual hierarchy.
+You are required to design the ***courses main page*** with ***its mobile view*** and ***Accommodation loan page.*** Please refer to this [Figma file](https://www.figma.com/design/Kw2O7g4t4HXMFBURJhlSMO/eustudyassist?node-id=0-1&t=9wsOxP2nh2WLZigf-1) for the exact layout and design requirements. Pay close attention to colors, typography, and overall visual hierarchy.
 
 ### Submission Guidelines
 
