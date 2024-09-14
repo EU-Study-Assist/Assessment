@@ -39,7 +39,7 @@ Create a Next.js application based on the Figma design provided. The project sho
 
 [Figma Link]: [https://www.figma.com/design/Kw2O7g4t4HXMFBURJhlSMO/eustudyassist?node-id=0-1&t=9wsOxP2nh2WLZigf-1]
 
-Please refer to this Figma file for the exact layout and design requirements. Pay close attention to colors, typography, and overall visual hierarchy.
+Please refer to this [Figma file](https://www.figma.com/design/Kw2O7g4t4HXMFBURJhlSMO/eustudyassist?node-id=0-1&t=9wsOxP2nh2WLZigf-1) for the exact layout and design requirements. Pay close attention to colors, typography, and overall visual hierarchy.
 
 ### Submission Guidelines
 
