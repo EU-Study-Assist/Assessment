@@ -7,7 +7,7 @@ import LegalLinks from "../ui/legallinks";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white px-5 lg:py-10 py-5 lg:px-28">
+    <div className="bg-black text-white px-5 lg:py-24 lg:px-28 py-12">
       <div className="lg:flex lg:flex-row">
         <div className="flex flex-col gap-3 lg:w-[60%]">
           <Image src={logo} alt="EU Logo" />
@@ -24,7 +24,7 @@ const Footer = () => {
         </div>
         <QuickLinks />
       </div>
-      <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center gap-2 my-24">
+      <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center gap-2 pt-12">
         <p className="text-gray-500 text-sm">
           &copy; 2024 EDUAssist. All rights reserved.
         </p>
