@@ -18,6 +18,10 @@
   @apply text-sm text-gray-500;
 }
 
+.listItem {
+  @apply flex mb-3 items-start gap-2;
+}
+
 body {
   color: var(--foreground);
   background: var(--background);

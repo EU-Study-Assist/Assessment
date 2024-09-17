@@ -14,7 +14,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="flex bg-white justify-between items-center px-3 lg:px-14 py-4">
+    <div className="flex sticky bg-white justify-between items-center px-3 lg:px-14 py-4">
       <Image src={logo} alt="EU Logo" />
       {/* Mobile Navs */}
       <MNavs show={navState} toggleNav={toggle} />

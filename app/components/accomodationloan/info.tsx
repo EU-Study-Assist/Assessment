@@ -3,13 +3,13 @@ import React from "react";
 
 const Info = () => {
   return (
-    <div className="py-5 flex mt-3 lg:mt-10 lg:items-center">
+    <div className="py-24 border border-red-400 md:border flex mt-3 lg:mt-10 lg:items-center">
       <div className="flex flex-col lg:w-[50%] lg:pl-14 lg:pr-24">
-        <h2 className="text-3xl lg:text-4xl font-semibold">
+        <h2 className="text-3xl lg:text-4xl font-semibold md:w-[80%]">
           Get In-Demand Tech Skills and Thrive in Europe with EU Study Assist
           <span className="text-primary"> Courses.</span>
         </h2>
-        <p className="text-md pr-4 mt-3">
+        <p className="text-md pr-4 mt-3 font-semibold">
           Level Up Your Data Skills: FREE Intro to R, SQL & Python (Projects
           Included)
         </p>
