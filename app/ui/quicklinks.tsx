@@ -2,7 +2,7 @@ import React from "react";
 
 const QuickLinks = () => {
   return (
-    <div className="flex flex-col lg:flex-row gap-3 my-4 lg:my-0 lg:flex-1 lg:gap-16">
+    <div className="flex justify-center gap-3 my-4 lg:my-0 md:flex-1 md:gap-16">
       <div className="flex flex-col gap-2 lg:gap-4 mb-2 linksParent">
         <h2>Company</h2>
         <h3>About</h3>

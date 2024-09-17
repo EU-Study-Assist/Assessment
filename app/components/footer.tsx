@@ -22,7 +22,6 @@ const Footer = () => {
           </div>
           <SocialLinks />
         </div>
-        i
         <QuickLinks />
       </div>
       <div className="flex flex-col-reverse lg:flex-row lg:justify-between items-center gap-2 pt-12">

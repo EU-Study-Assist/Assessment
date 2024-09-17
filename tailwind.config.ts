@@ -13,6 +13,15 @@ const config: Config = {
         foreground: "var(--foreground)",
         primary: "#0F5EDB",
       },
+      animation: {
+        slideIn: "slideIn 0.5s ease-in-out",
+      },
+      keyframes: {
+        slideIn: {
+          "0%": { transform: "translateX(-100%)" },
+          "100%": { transform: "translateX(100)" },
+        },
+      },
     },
   },
   plugins: [],

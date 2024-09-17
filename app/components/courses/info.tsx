@@ -1,13 +1,13 @@
 import Image from "next/image";
 import React from "react";
-import { CiCircleCheck } from "react-icons/ci";
 import checkicon from "@/app/assets/svg/checkicon.svg";
+import infoimage from "../../assets/images/placeholder_img.jpg";
 
 const Info = () => {
   return (
-    <div className="py-12 pe-10 flex mt-3 lg:mt-10 lg:items-center">
-      <div className="flex flex-col lg:w-[50%] lg:pl-14 lg:pr-24">
-        <h2 className="text-3xl lg:text-4xl font-semibold pe-2 text-wrap">
+    <div className="py-12 pe-10 flex mt-3 md:mt-10 md:items-center">
+      <div className="flex flex-col md:w-[50%] md:pl-14 md:pr-24">
+        <h2 className="text-3xl md:text-4xl font-semibold pe-2 text-wrap">
           Get In-Demand Tech Skills and Thrive in Europe with EU Study Assist
           <span className="text-primary"> Courses.</span>
         </h2>
@@ -35,10 +35,12 @@ const Info = () => {
           </li>
         </ul>
       </div>
-      <div className="hidden lg:block rounded-xl h-[70vh] flex-1 ps-24">
-        <div className="bg-primary h-full rounded-xl">
-          {/* <Image src={} /> */}
-        </div>
+      <div className="hidden md:block rounded-xl h-[70vh] flex-1 ps-24">
+        <Image
+          src={infoimage}
+          alt="Info Image"
+          className="h-full rounded-xl object-cover"
+        />
       </div>
     </div>
   );
