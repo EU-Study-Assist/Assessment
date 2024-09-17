@@ -1,16 +1,16 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/app/assets/svg/logo.svg";
+import logo from "@/app/assets/svg/logo_light.svg";
 import SocialLinks from "../ui/sociallinks";
 import QuickLinks from "../ui/quicklinks";
 import LegalLinks from "../ui/legallinks";
 
 const Footer = () => {
   return (
-    <div className="bg-black text-white px-5 py-10 lg:px-28">
+    <div className="bg-black text-white px-5 lg:py-10 py-5 lg:px-28">
       <div className="lg:flex lg:flex-row">
         <div className="flex flex-col gap-3 lg:w-[60%]">
-          <Image src={logo} alt="EU Logo" className="border" />
+          <Image src={logo} alt="EU Logo" />
           <div className="flex flex-col my-2">
             <h3>Address</h3>
             <p className="text-sm text-gray-500">Level 1, 12 Sample Street</p>
