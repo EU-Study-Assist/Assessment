@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "../../assets/svg/logo.svg";
+import logo from "@/public/assets/svg/logo.svg";
 import NavActions from "../navactions";
 import { BiMenu } from "react-icons/bi";
 

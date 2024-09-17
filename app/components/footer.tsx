@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "@/app/assets/svg/logo_light.svg";
+import logo from "@/public/assets/svg/logo_light.svg";
 import SocialLinks from "../ui/sociallinks";
 import QuickLinks from "../ui/quicklinks";
 import LegalLinks from "../ui/legallinks";

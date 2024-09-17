@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
-import checkicon from "@/app/assets/svg/checkicon.svg";
-import infoimage from "../../assets/images/placeholder_img.jpg";
+import checkicon from "@/public/assets/svg/checkicon.svg";
+import infoimage from "@/public/assets/images/placeholder_img.jpg";
 
 const Info = () => {
   return (

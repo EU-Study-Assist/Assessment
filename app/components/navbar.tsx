@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import logo from "../assets/svg/logo.svg";
+import logo from "@/public/assets/svg/logo.svg";
 import MNavs from "../ui/mobile/navs";
 import { useState } from "react";
 import DNavs from "../ui/desktop/navs";
