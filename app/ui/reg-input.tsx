@@ -9,7 +9,7 @@ const RegInput = () => {
         type="email"
         alt="Email Input"
       />
-      <button className="bg-primary px-3 rounded-full py-2 text-xs lg:text-sm lg:px-4">
+      <button className="bg-primary px-3 rounded-full py-2 text-xs lg:text-sm">
         Register for Free
       </button>
     </div>
