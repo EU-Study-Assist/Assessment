@@ -38,7 +38,7 @@ const Info = () => {
         </div>
       </div>
       <div className="rounded-xl md:ms-5 border flex-1 flex flex-col justify-between py-5 items-center">
-        <div className="w-fit p-1 rounded-full text-sm border flex gap-1 items-center lg:mb-10">
+        <div className="w-fit p-1 rounded-full text-sm border flex gap-1 items-center mb-5 lg:mb-10">
           <IoAddCircleSharp size={20} className="text-primary" />
           <span>MAX AMOUNT</span>
         </div>

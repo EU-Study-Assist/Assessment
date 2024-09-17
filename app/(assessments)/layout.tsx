@@ -1,11 +1,10 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
 import "./globals.css";
-
-const nunito = Nunito({ subsets: ["latin"] });
+import NavBar from "../components/navbar";
+import Footer from "../components/footer";
 
 export const metadata: Metadata = {
-  title: "% | EU Study Assis",
+  title: "EU Assessment",
   description: "A short practical skill test.",
 };
 
@@ -15,10 +14,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${nunito.className} antialiased bg-slate-50`}>
-        {children}
-      </body>
-    </html>
+    <>
+      <NavBar />
+      <main>{children}</main>
+      <Footer />
+    </>
   );
 }

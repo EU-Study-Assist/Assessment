@@ -1,6 +1,6 @@
 import React from "react";
-import Hero from "../components/courses/hero";
-import Info from "../components/courses/info";
+import Hero from "../../components/courses/hero";
+import Info from "../../components/courses/info";
 
 const Page = () => {
   return (
