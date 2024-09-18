@@ -9,7 +9,7 @@ const Hero = () => {
           Accomodation Payment Loan
         </h2>
         <p className="text-xs mt-3 px-3">
-          Don't let visa fees hold you back from your educational dreams!
+          Don&apos;t let visa fees hold you back from your educational dreams!
         </p>
         <button className="px-4 py-3 bg-primary text-white font-semibold rounded-full mt-7 text-sm">
           Apply Now
